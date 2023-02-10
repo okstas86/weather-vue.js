@@ -1,0 +1,107 @@
+#main {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.form-rounded {
+  border-radius: 2rem;
+}
+.back-card {
+  border-radius: 40px !important;
+  color: white;
+
+  text-shadow: 2px 2px 2px #707070;
+}
+
+.city-name {
+  position: center;
+  width: 100%;
+}
+
+.city-name p {
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+.city-name span {
+  position: relative;
+  top: -50px;
+  font-size: 40pt;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.temp span {
+  font-weight: 100;
+  font-size: 5em;
+  letter-spacing: -5px;
+  white-space: nowrap;
+}
+.card-mid {
+  line-height: 0.5;
+}
+.condition {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: capitalize;
+}
+
+.high {
+  font-size: 15px;
+}
+
+.low {
+  font-size: 15px;
+}
+
+.card-bottom p {
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: -3px;
+}
+.card-bottom {
+  line-height: 0.5;
+}
+
+.card-bottom span {
+  font-size: 12px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: inherit;
+}
+div.back-card {
+  background-color: #5d5d5d;
+}
+button.btn {
+  margin-left: 20px;
+  width: 100px;
+  background: #4793ff;
+  border-radius: 10px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.close {
+  width: 30px;
+  border-radius: 30px;
+}
